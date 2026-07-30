@@ -1,8 +1,14 @@
 aid: marker
 name: Marker
-description: 'Marker is a company surfaced as a portfolio company of index-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: future-of-work. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Marker is a writing tool for people who believe in writing — a calm, focused
+  space for thinking and writing that acts as your partner and editor from first
+  idea to final draft. Backed by Index Ventures, Marker sits in the future-of-work
+  space and offers a distraction-free web application (my.marker.page) for
+  drafting long-form writing. It is a consumer product web app: as of this
+  enrichment pass it publishes no public developer API, SDKs, developer
+  documentation, or /.well-known discovery surface, so this profile captures its
+  identity and a live domain-security probe only.
 url: https://raw.githubusercontent.com/api-evangelist/marker/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,28 @@ x-backed-by:
 - index-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Future Of Work
+- Writing
+- Productivity
+- Text Editor
+- Web App
+image: https://marker.page/images/opengraph.png
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +46,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://marker.page
+  url: https://marker.page
+- type: About
+  url: https://marker.page/about.html
+- type: SignUp
+  url: https://my.marker.page
+- type: TermsOfService
+  url: https://marker.page/terms.html
+- type: PrivacyPolicy
+  url: https://marker.page/privacy.html
+- type: DomainSecurity
+  url: security/marker-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
