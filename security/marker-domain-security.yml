@@ -1,0 +1,16 @@
+generated: '2026-07-20'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: marker.page
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct 18 16:51:00 2026 GMT
+  hsts: false
+domains:
+- domain: marker.page
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: none
